@@ -1,0 +1,26 @@
+@import 'colors';
+
+.card{
+  border:1px solid $color-dark-grey;
+  border-radius: 5px;
+
+  .card-title{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: $color-white;
+    background-color: $color-dark-grey;
+    border-bottom: 1px solid $color-dark-grey;
+  }
+
+  .card-body{
+    padding: 10px;
+  }
+
+  .card-footer{
+    padding: 10px;
+    background-color: $color-grey;
+    border-top: 1px solid $color-dark-grey;
+  }
+}

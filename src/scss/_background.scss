@@ -1,0 +1,46 @@
+@import 'colors';
+
+.background-yellow{
+  background: rgb(107,101,51);
+  background: linear-gradient(315deg, rgba(107,101,51,1) 0%, rgba(222,207,88,1) 100%);
+}
+
+.background-green{
+  background: rgb(62,92,61);
+  background: linear-gradient(315deg, rgba(62,92,61,1) 0%, rgba(124,176,121,1) 100%)
+}
+
+.background-red{
+  background: rgb(110,42,42);
+  background: linear-gradient(315deg, rgba(110,42,42,1) 0%, rgba(199,85,85,1) 100%)
+}
+
+.background-orange{
+  background: rgb(168,111,47);
+  background: linear-gradient(315deg, rgba(168,111,47,1) 0%, rgba(219,152,77,1) 100%);
+}
+
+.background-blue{
+  background: rgb(31,88,116);
+  background: linear-gradient(315deg, rgba(31,88,116,1) 0%, rgba(65,160,206,1) 100%);
+}
+
+.background-dark-grey{
+  background: rgb(34,31,31);
+  background: linear-gradient(315deg, rgba(34,31,31,1) 0%, rgba(49,49,49,1) 100%);
+}
+
+.background-grey{
+  background: rgb(121,121,121);
+  background: linear-gradient(315deg, rgba(121,121,121,1) 0%, rgba(187,187,187,1) 100%);
+}
+
+.background-black{
+  background: rgb(49,49,49);
+  background: linear-gradient(315deg, rgba(49,49,49,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.background-white{
+  background: rgb(187,187,187);
+  background: linear-gradient(315deg, rgba(187,187,187,1) 0%, rgba(255,255,255,1) 100%)
+}

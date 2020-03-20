@@ -1,0 +1,78 @@
+@import 'colors';
+
+.text-yellow{
+  color: $color-yellow;
+}
+
+.text-green{
+  color: $color-green;
+}
+
+.text-red{
+  color: $color-red;
+}
+
+.text-orange{
+  color: $color-orange;
+}
+
+.text-blue{
+  color: $color-blue;
+}
+
+.text-dark-grey{
+  color: $color-dark-grey;
+}
+
+.text-grey{
+  color: $color-grey;
+}
+
+.text-black{
+  color: $color-black;
+}
+
+.text-white{
+  color: $color-white;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-thin{
+  font-weight: 300;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
+.text-italic-bold{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.text-oblique{
+  font-style: oblique;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+@import 'global';
+@import 'colors';
+@import 'text';
+@import 'padding';
+@import 'margin';
+@import 'background';
+@import 'border';
+
+//The file below using file up
+@import 'card';
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
