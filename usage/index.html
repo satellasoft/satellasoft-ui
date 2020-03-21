@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>SatellaSoft UI - Usage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../build/css/satellasoft-ui.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="highlight/default.min.css">
+  <script src="highlight/highlight.min.js"></script>
+  <style>
+  .max-width{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+  <div class="max-width">
+    <!--TEXT COLORS-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Text colors
+      </div>
+      <div class="card-body">
+        <p class='text-yellow'>Text in yellow color</p>
+        <p class='text-green'>Text in green color</p>
+        <p class='text-red'>Text in red color</p>
+        <p class='text-orange'>Text in orange color</p>
+        <p class='text-blue'>Text in blue color</p>
+        <p class='text-dark-grey'>Text in dark grey color</p>
+        <p class='text-grey'>Text in grey color</p>
+        <p class='text-black'>Text in black color</p>
+        <p class='text-white background-black'>Text in white color</p>
+
+        <pre><code class="html">
+          &lt;p class='text-yellow'&gt;Text in yellow color&lt;/p&gt;
+          &lt;p class='text-green'&gt;Text in green color&lt;/p&gt;
+          &lt;p class='text-red'&gt;Text in red color&lt;/p&gt;
+          &lt;p class='text-orange'&gt;Text in orange color&lt;/p&gt;
+          &lt;p class='text-blue'&gt;Text in blue color&lt;/p&gt;
+          &lt;p class='text-dark-grey'&gt;Text in dark grey color&lt;/p&gt;
+          &lt;p class='text-grey'&gt;Text in grey color&lt;/p&gt;
+          &lt;p class='text-black'&gt;Text in black color&lt;/p&gt;
+          &lt;p class='text-white background-black'&gt;Text in white color&lt;/p&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+
+    <!--TEXT WEIGHT-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Text weight
+      </div>
+      <div class="card-body">
+        <p class='text-thin'>Text thin</p>
+        <p class='text-bold'>Text bold</p>
+        <p class='text-italic'>Text italic</p>
+        <p class='text-italic-bold'>Text italic bold</p>
+        <p class='text-oblique'>Text oblique</p>
+
+        <pre><code class="html">
+          &lt;p class='text-thin'&gt;Text thin&lt;/p&gt;
+          &lt;p class='text-bold'&gt;Text bold&lt;/p&gt;
+          &lt;p class='text-italic'&gt;Text italic&lt;/p&gt;
+          &lt;p class='text-italic-bold'&gt;Text italic bold&lt;/p&gt;
+          &lt;p class='text-oblique'&gt;Text oblique&lt;/p&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+
+    <!--TEXT POSITIONS-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Text align
+      </div>
+      <div class="card-body">
+        <p class='text-left'>Text left</p>
+        <p class='text-center'>Text center</p>
+        <p class='text-right'>Text right</p>
+        <p class='text-justify'>Text justify Text justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justifyText justify</p>
+
+        <pre><code class="html">
+          &lt;p class='text-left'&gt;Text left&lt;/p&gt;
+          &lt;p class='text-center'&gt;Text center&lt;/p&gt;
+          &lt;p class='text-right'&gt;Text right&lt;/p&gt;
+          &lt;p class='text-justify'&gt;Text justify &lt;/p&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!--BORDER COLORS-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Border
+      </div>
+      <div class="card-body">
+        <p class="text-bold">- Border size</p>
+        <div class="border border-sm padding-sm margin-top-sm">Border sm</div>
+
+        <div class="border border-md padding-sm margin-top-sm">Border md</div>
+
+        <p class="text-bold">- Border color</p>
+        <div class="border border-yellow padding-sm margin-top-sm">Border yellow</div>
+
+        <div class="border border-green padding-sm margin-top-sm">Border green</div>
+
+        <div class="border border-red padding-sm margin-top-sm">Border red</div>
+
+        <div class="border border-orange padding-sm margin-top-sm">Border orange</div>
+
+        <div class="border border-blue padding-sm margin-top-sm">Border blue</div>
+
+        <div class="border border-dark-grey padding-sm margin-top-sm">Border dark grey</div>
+
+        <div class="border border-grey padding-sm margin-top-sm">Border grey</div>
+
+        <div class="border border border-black padding-sm margin-top-sm">Border black</div>
+
+        <div class="border border-white padding-sm margin-top-sm">Border white</div>
+
+        <pre><code class="html">
+          &lt;p&gt;- Border size&lt;/p&gt;
+          &lt;div class=&quot;border border-sm padding-sm margin-top-sm&quot;&gt;Border sm&lt;/div&gt;
+
+          &lt;div class=&quot;border border-md padding-sm margin-top-sm&quot;&gt;Border md&lt;/div&gt;
+
+          &lt;p&gt;- Border color&lt;/p&gt;
+          &lt;div class=&quot;border border-yellow padding-sm margin-top-sm&quot;&gt;Border yellow&lt;/div&gt;
+
+          &lt;div class=&quot;border border-green padding-sm margin-top-sm&quot;&gt;Border green&lt;/div&gt;
+
+          &lt;div class=&quot;border border-red padding-sm margin-top-sm&quot;&gt;Border red&lt;/div&gt;
+
+          &lt;div class=&quot;border border-orange padding-sm margin-top-sm&quot;&gt;Border orange&lt;/div&gt;
+
+          &lt;div class=&quot;border border-blue padding-sm margin-top-sm&quot;&gt;Border blue&lt;/div&gt;
+
+          &lt;div class=&quot;border border-dark-grey padding-sm margin-top-sm&quot;&gt;Border dark grey&lt;/div&gt;
+
+          &lt;div class=&quot;border border-grey padding-sm margin-top-sm&quot;&gt;Border grey&lt;/div&gt;
+
+          &lt;div class=&quot;border border border-black padding-sm margin-top-sm&quot;&gt;Border black&lt;/div&gt;
+
+          &lt;div class=&quot;border border-white padding-sm margin-top-sm&quot;&gt;Border white&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+
+    <!--BACKGROUND COLORS-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Background color
+      </div>
+      <div class="card-body">
+
+        <div class="background-yellow padding-lg">Background yellow</div>
+
+        <div class="background-green padding-lg margin-top-sm">Background green</div>
+
+        <div class="background-red padding-lg margin-top-sm">Background red</div>
+
+        <div class="background-orange padding-lg margin-top-sm">Background orange</div>
+
+        <div class="background-blue padding-lg margin-top-sm">Background blue</div>
+
+        <div class="background-dark-grey padding-lg margin-top-sm text-white">Background dark grey</div>
+
+        <div class="background-grey padding-lg margin-top-sm">Background grey</div>
+
+        <div class="background-black padding-lg margin-top-sm text-white">Background black</div>
+
+        <div class="background-white padding-lg margin-top-sm">Background white</div>
+
+        <pre><code class="html">
+          &lt;div class=&quot;background-yellow padding-lg&quot;&gt;Background yellow&lt;/div&gt;
+
+          &lt;div class=&quot;background-green padding-lg margin-top-sm&quot;&gt;Background green&lt;/div&gt;
+
+          &lt;div class=&quot;background-red padding-lg margin-top-sm&quot;&gt;Background red&lt;/div&gt;
+
+          &lt;div class=&quot;background-orange padding-lg margin-top-sm&quot;&gt;Background orange&lt;/div&gt;
+
+          &lt;div class=&quot;background-blue padding-lg margin-top-sm&quot;&gt;Background blue&lt;/div&gt;
+
+          &lt;div class=&quot;background-dark-grey padding-lg margin-top-sm text-white&quot;&gt;Background dark grey&lt;/div&gt;
+
+          &lt;div class=&quot;background-grey padding-lg margin-top-sm&quot;&gt;Background grey&lt;/div&gt;
+
+          &lt;div class=&quot;background-black padding-lg margin-top-sm text-white&quot;&gt;Background black&lt;/div&gt;
+
+          &lt;div class=&quot;background-white padding-lg margin-top-sm&quot;&gt;Background white&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!--MARGIN-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Margin
+      </div>
+      <div class="card-body">
+
+        <div class="border border-blue background-white">
+          <div class="margin-sm padding-sm  background-grey">
+            Margin small
+          </div>
+        </div>
+        <br>
+        <div class="border border-blue background-white">
+          <div class="margin-md padding-sm  background-grey">
+            Margin medium
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-blue background-white">
+          <div class="margin-lg padding-sm  background-grey">
+            Margin large
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-blue background-white">
+          <div class="margin-el padding-sm  background-grey">
+            Margin extra large
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-green background-white">
+          <div class="margin-top-sm padding-sm  background-grey">
+            Margin top small
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-green background-white">
+          <div class="margin-right-sm padding-sm  background-grey">
+            Margin right small
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-green background-white">
+          <div class="margin-bottom-sm padding-sm  background-grey">
+            Margin bottom small
+          </div>
+        </div>
+
+        <br>
+        <div class="border border-green background-white">
+          <div class="margin-left-sm padding-sm  background-grey">
+            Margin bottom left
+          </div>
+        </div>
+
+        <pre><code class="html">
+          &lt;div class=&quot;margin-sm&quot;&gt;Margin small&lt;/div&gt;
+
+          &lt;div class=&quot;margin-md&quot;&gt;Margin medium&lt;/div&gt;
+
+          &lt;div class=&quot;margin-lg&quot;&gt;Margin large&lt;/div&gt;
+
+          &lt;div class=&quot;margin-el&quot;&gt;Margin extra large&lt;/div&gt;
+
+          &lt;div class=&quot;margin-top-sm&quot;&gt;Margin top small&lt;/div&gt;
+
+          &lt;div class=&quot;margin-right-sm&quot;&gt;Margin right small&lt;/div&gt;
+
+          &lt;div class=&quot;margin-bottom-sm&quot;&gt;Margin bottom small&lt;/div&gt;
+
+          &lt;div class=&quot;margin-left-sm&quot;&gt;Margin bottom left&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+    <!--PADDING-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Padding
+
+      </div>
+      <div class="card-body">
+        <div class="border-blue background-white">
+
+          <div class="padding-sm background-grey margin-top-sm">padding small</div>
+
+          <div class="padding-md background-grey margin-top-sm">padding medium</div>
+
+          <div class="padding-lg background-grey margin-top-sm">padding large</div>
+
+          <div class="padding-el background-grey margin-top-sm">padding extra large</div>
+        </div>
+
+        <pre><code class="html">
+          &lt;div class=&quot;padding-sm background-grey&quot;&gt;padding small&lt;/div&gt;
+
+          &lt;div class=&quot;padding-md background-grey&quot;&gt;padding medium&lt;/div&gt;
+
+          &lt;div class=&quot;padding-lg background-grey&quot;&gt;padding large&lt;/div&gt;
+
+          &lt;div class=&quot;padding-el background-grey&quot;&gt;padding extra large&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+
+    <!--FLOAT-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Float
+      </div>
+      <div class="card-body">
+        <div class="float-left border border-blue padding-md" style='max-width: 100px;'>
+          float left
+        </div>
+
+        <div class="float-right border border-blue padding-md" style='max-width: 100px;'>
+          float right
+        </div>
+
+        <div class="clear"></div>
+
+        <pre><code class="html">
+          &lt;div class=&quot;float-left&quot;&gt;float left&lt;/div&gt;
+
+          &lt;div class=&quot;float-right&quot;&gt;float right&lt;/div&gt;
+
+          &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!--CARDS-->
+    <div class="card background-white">
+      <div class="card-title background-dark-grey">
+        Cards
+      </div>
+      <div class="card-body">
+        <p>- Default card</p>
+        <div class="card">
+          <div class="card-title">
+            Card title
+          </div>
+          <div class="card-body">
+            Card body
+          </div>
+
+          <div class="card-footer">
+            Card footer
+          </div>
+        </div>
+
+        <p>- Custom card background</p>
+        <div class="card background-dark-grey">
+          <div class="card-title background-orange">
+            Card title
+          </div>
+          <div class="card-body background-blue text-white">
+            Card body
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <div class="card-footer background-red text-white">
+            Card footer
+          </div>
+        </div>
+
+        <p>- Default card border</p>
+        <div class="card border-red background-white">
+          <div class="card-title border-md border-green text-blue">
+            Card title
+          </div>
+          <div class="card-body">
+            Card body
+          </div>
+
+          <div class="card-footer border-blue">
+            Card footer
+          </div>
+        </div>
+
+        <pre><code class="html">
+          &lt;p&gt;- Default card&lt;/p&gt;
+          &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-title&quot;&gt;
+          Card title
+          &lt;/div&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+          Card body
+          &lt;/div&gt;
+
+          &lt;div class=&quot;card-footer&quot;&gt;
+          Card footer
+          &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;p&gt;- Custom card background&lt;/p&gt;
+          &lt;div class=&quot;card background-dark-grey&quot;&gt;
+          &lt;div class=&quot;card-title background-orange&quot;&gt;
+          Card title
+          &lt;/div&gt;
+          &lt;div class=&quot;card-body background-blue text-white&quot;&gt;
+          Card body
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit...&lt;/p&gt;
+          &lt;/div&gt;
+
+          &lt;div class=&quot;card-footer background-red text-white&quot;&gt;
+          Card footer
+          &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;p&gt;- Default card border&lt;/p&gt;
+          &lt;div class=&quot;card border-red background-white&quot;&gt;
+          &lt;div class=&quot;card-title border-md border-green  text-blue&quot;&gt;
+          Card title
+          &lt;/div&gt;
+          &lt;div class=&quot;card-body&quot;&gt;
+          Card body
+          &lt;/div&gt;
+
+          &lt;div class=&quot;card-footer border-blue&quot;&gt;
+          Card footer
+          &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <!--BUTTON-->
+    <div class="card background-white" id='button'>
+      <div class="card-title background-dark-grey">
+        Button
+      </div>
+      <div class="card-body">
+        <p>- Button size</p>
+        <button class="btn btn-sm btn-blue">Button small</button>
+        <button class="btn btn-blue">Button default</button>
+        <button class="btn btn-md btn-blue">Button medium</button>
+        <button class="btn btn-lg btn-blue">Button large</button>
+
+        <pre><code class="html">
+          &lt;button class=&quot;btn btn-sm btn-blue&quot;&gt;Button small&lt;/button&gt;
+          &lt;button class=&quot;btn btn-blue&quot;&gt;Button default&lt;/button&gt;
+          &lt;button class=&quot;btn btn-md btn-blue&quot;&gt;Button medium&lt;/button&gt;
+          &lt;button class=&quot;btn btn-lg btn-blue&quot;&gt;Button large&lt;/button&gt;
+        </code></pre>
+
+        <p>- Button color</p>
+        <button class="btn">Button default</button>
+        <button class="btn btn-yellow">Yellow button</button>
+        <button class="btn btn-green">Green button</button>
+        <button class="btn btn-red">Red button</button>
+        <button class="btn btn-orange">Orange button</button>
+        <button class="btn btn-blue">Blue button</button>
+        <button class="btn btn-dark-grey">Dark grey button</button>
+        <button class="btn btn-grey">Grey button</button>
+        <button class="btn btn-black">Black button</button>
+
+        <pre><code class="html">
+          &lt;button class=&quot;btn&quot;&gt;Button default&lt;/button&gt;
+          &lt;button class=&quot;btn btn-yellow&quot;&gt;Yellow button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-green&quot;&gt;Green button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-red&quot;&gt;Red button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-orange&quot;&gt;Orange button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-blue&quot;&gt;Blue button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-dark-grey&quot;&gt;Dark grey button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-grey&quot;&gt;Grey button&lt;/button&gt;
+          &lt;button class=&quot;btn btn-black&quot;&gt;Black button&lt;/button&gt;
+        </code></pre>
+
+        <p>- Button outline color</p>
+        <button class="btn btn-outline-blue">Button outline blue</button>
+      </div>
+    </div>
+
+    <!--
+    <div class="card background-white">
+    <div class="card-title background-dark-grey">
+    TILE
+  </div>
+  <div class="card-body">
+
+  <pre><code class="html">
+
+</code></pre>
+</div>
+</div>
+<br>
+<hr>
+<br>
+-->
+
+<!--END MAX WIDTH-->
+</div>
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+</body>
+</html>

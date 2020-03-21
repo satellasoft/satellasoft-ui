@@ -1,5 +1,3 @@
-@import 'global';
-@import 'colors';
 @import 'text';
 @import 'padding';
 @import 'margin';
@@ -8,7 +6,20 @@
 
 //The file below using file up
 @import 'card';
+@import 'button';
 
 *{
   font-family: 'Open Sans', sans-serif;
+}
+
+.clear{
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
 }

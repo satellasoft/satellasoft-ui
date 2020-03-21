@@ -1,37 +1,51 @@
 @import 'colors';
+$border-width-sm: 1px;
+$border-width-md: 2px;
+
+.border{
+  border:$border-width-sm solid $color-dark-grey;
+}
+
+.border-sm{
+  border-width: $border-width-sm !important;
+}
+
+.border-md{
+  border-width: $border-width-md !important;
+}
 
 .border-yellow{
-  border:2px solid  $color-yellow;
+  border-color:  $color-yellow !important;
 }
 
 .border-green{
-  border:2px solid  $color-green;
+  border-color:  $color-green !important;
 }
 
 .border-red{
-  border:2px solid  $color-red;
+  border-color:  $color-red !important;
 }
 
 .border-orange{
-  border:2px solid  $color-orange;
+  border-color:  $color-orange !important;
 }
 
 .border-blue{
-  border:2px solid  $color-blue;
+  border-color:  $color-blue !important;
 }
 
 .border-dark-grey{
-  border:2px solid  $color-dark-grey;
+  border-color:  $color-dark-grey !important;
 }
 
 .border-grey{
-  border:2px solid  $color-grey;
+  border-color:  $color-grey !important;
 }
 
 .border-black{
-  border:2px solid  $color-black;
+  border-color:  $color-black !important;
 }
 
 .border-white{
-  border:2px solid  $color-white;
+  border-color:  $color-white !important;
 }

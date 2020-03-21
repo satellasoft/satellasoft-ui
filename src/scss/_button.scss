@@ -1,0 +1,78 @@
+@import 'colors';
+
+.btn{
+  border:none;
+  padding: 10px;
+  outline: none;
+  background-color: $color-white;
+  transition: all .3s;
+  cursor: pointer;
+
+  &:hover{
+    filter: brightness(85%);
+  }
+}
+
+.btn-sm{
+  padding: 5px;
+}
+
+.btn-md{
+  padding: 15px;
+}
+
+.btn-lg{
+  padding: 20px;
+}
+
+.btn-yellow{
+  background-color: $color-yellow !important;
+  color: #313131;
+}
+
+.btn-blue{
+  color: #FFF;
+  background-color: $color-blue !important;
+}
+
+.btn-green{
+  color: #FFF;
+  background-color: $color-green !important;
+}
+
+.btn-red{
+  color: #FFF;
+  background-color: $color-red !important;
+}
+
+.btn-orange{
+  color: #FFF;
+  background-color: $color-orange !important;
+}
+
+.btn-dark-grey{
+  color: #FFF;
+  background-color: $color-dark-grey !important;
+}
+
+.btn-grey{
+  background-color: $color-grey !important;
+}
+
+.btn-black{
+  color: #FFF;
+  background-color: $color-black !important;
+  &:hover{
+    background-color: $color-dark-grey !important;
+  }
+}
+
+
+.btn-outline-blue{
+  border: 1px solid $color-blue !important;
+
+  &:hover{
+    background-color: $color-blue !important;
+    color:#FFF;
+  }
+}
